@@ -1,0 +1,32 @@
+/*" "的條件
+    1 為中文 "中文"
+    2 有空格 "ssss aaaa"
+    3 開頭為數字 "5sssss"
+    4 加了比較嚴謹
+*/
+body{
+    font-family: Arial, Helvetica,"微軟正黑體" ,"sans-serif";
+}
+
+/*目前通用這種寫法*/
+a{color: red;}
+
+a:hover{color: orange;}
+
+/*超連結的4種狀態*/
+/*a:link{
+    color: red;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color:green;
+}*/
+

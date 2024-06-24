@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* padding-left: 70PX;版本 */
+.box {
+    background-image: url("./box.png");
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.box a {
+    display: block;
+    background-image: url("./btn01.png");
+    /* 實際上 圖形寬度為width+padding-left
+    但是可以邊及區域 只有width
+    如果這邊設定width 要注意圖形會超過 要去扣掉padding-left
+    但是這樣可邊及區域就會變小 */
+    padding-left: 70PX;
+    /* width: 300px; */
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    display: block;
+    background-image: url("./btn02.png");
+    width: 300px;
+    height: 60px;
+}

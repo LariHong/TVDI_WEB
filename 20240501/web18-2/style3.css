@@ -1,0 +1,69 @@
+/* 垂直系列 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E3E1C6;
+}
+
+.wrapper {
+    width: 1200px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+.header {
+    border-top: #066 20px solid;
+    border-bottom: #066 20px solid;
+}
+
+.header img {
+    vertical-align: bottom;
+}
+
+
+.box {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2000px;
+    flex-direction: row;
+    justify-content: space-between;
+    /*垂直*/
+    align-items: flex-end;
+}
+
+.box>div {
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.b1 {
+    background-color: rgba(255, 136, 0, 0.393);
+    /*各自 align 只能給子層*/
+    align-self: flex-start;
+}
+
+.b2 {
+    background-color: rgba(221, 255, 0, 0.426);
+}
+
+.b3 {
+    background-color: rgba(0, 221, 255, 0.448);
+}
+
+
+.b4 {
+    background-color: rgba(0, 255, 4, 0.393);
+}
+
+.b5 {
+    background-color: rgba(0, 221, 255, 0.426);
+}
+
+.b6 {
+    background-color: rgba(255, 0, 174, 0.448);
+}

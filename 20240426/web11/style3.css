@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* text-indent: 70px; */
+.box {
+    background-image: url("./box.png");
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+.box a {
+    display: block;
+    background-image: url("./btn01.png");
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    /* width放不放都可以 他只是把文字做縮排 */
+    text-indent: 70px;
+}
+
+.box a:hover {
+    display: block;
+    background-image: url("./btn02.png");
+    width: 300px;
+    height: 60px;
+}

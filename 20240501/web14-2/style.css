@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    /* 加入這段指令後 width = width+border+padding 但 內容<1200 */
+    box-sizing: border-box;
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    padding-left: 650px;
+    padding-top: 200px;
+    height: 350px;
+    margin: auto;
+
+}
+
+h1 {
+
+    background-color: rgba(255, 0, 0, 0.244);
+}

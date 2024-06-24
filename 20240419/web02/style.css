@@ -1,0 +1,32 @@
+.aaa{
+    background-color: aquamarine;
+}
+
+.bbb{
+    padding: 20px;
+}
+
+.ccc{
+    background-color: blue;
+}
+
+.xxx,.ooo{
+    background-color: red;
+    font-style: 30px;
+}
+
+.bbb h4{
+    color: #6b1d1d;
+}
+
+div{
+    margin: 30px;
+    padding: 50px;
+}
+
+/*  class 才可以有兩個以上的名稱
+    id 只有一個名稱
+
+    .xxx .ooo
+    .xxx,.ooo
+*/

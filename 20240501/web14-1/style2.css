@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+
+}
+
+h1 {
+
+    background-color: red;
+    /* 子盒中做margin-top會無法將母盒撐大導致做不出位移效果,因此改用padding-top */
+    margin-left: 650px;
+    padding-top: 200px; 
+}

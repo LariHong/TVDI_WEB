@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin:0 0 8px 0;
+}
+body{
+    padding:20px
+}
+.box1{
+    background-color: #fbf29d;
+    padding: 20px;
+}
+.box2 {
+    background-color: #5cd3a4;
+    padding: 20px;
+}
+
+/* child 系列的要看 DOM */
+/* 這時候只有 .box 中的 h2才改顏色 */
+h2:nth-child(2){
+    background-color: #813838;
+}
+/* type 系列的 只看該群組的 */

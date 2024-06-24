@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    /* 如果對 div作 要去控制計算 width border padding  */
+    /* 進階用法於 14-2 */
+    background-image: url(./banner.jpg);
+    width: 550px;
+    padding-left: 650px;
+    padding-top: 200px;
+    height: 150px;
+    margin: auto;
+}
+h1{
+    /* 可單獨對子盒作padding div的width height可以不變 */
+    background-color:red ;
+    /* padding-left: 650px;
+    padding-top: 200px;  */
+}

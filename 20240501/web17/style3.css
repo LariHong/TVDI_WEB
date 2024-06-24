@@ -1,0 +1,47 @@
+/* 使用position的做法 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+li {
+    float: left;
+    margin: 5px;
+}
+
+li a {
+    display: block;
+    width: 100px;
+    height: 100px;
+
+    text-decoration: none;
+    line-height: 100px;  
+    text-indent: 15px;
+}
+
+.icon1 a{
+    background-image: url(./icon1_1.png);
+    
+}
+.icon1 a:hover {
+    background-image: url(./icon1_2.png);
+}

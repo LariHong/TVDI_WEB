@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-color:#CCC;}
+h1{
+	font-size:60px;
+	text-align:center;
+	margin:10px;}
+h2{
+	text-align: center;
+	font-size: 100px;
+}
+.wrapper{
+	background-color:#FFF;
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	font-size:20px;
+	}
+
+.box{
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	border:#333 3px solid;
+	border-radius:20px;
+	}
+/*==============================*/
+.box1{
+	background-color:#F90;
+	}
+
+/*==============================*/
+.box2{
+	background-color:#9C0;
+}
+
+/*==============================*/	
+.box3{
+	background-color:#09F;
+}
+
+
+	
+/*======字型嵌入======*/
+
+
+
+
+
+.noto-sans-thai{
+	font-family: "Noto Sans Thai", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100;
+}
+
+
+.dancing-script {
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.material-symbols-outlined
+{
+	vertical-align: middle;	
+}
+
+.box p::after{
+	content: "check_box";
+	font-family: "Material Symbols Outlined";
+	vertical-align: middle;
+}
+
+.box3 a::before{
+	content: " \e14b";
+	font-family: "Material Symbols Outlined";
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.box3 a:hover::before{
+	color: rgb(0, 204, 204);
+	font-size: 36px;
+}
+
+a{
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: "3Dumb";
+	src: url(./3Dumb.ttf);
+
+	font-family:heydings_icons;
+	src: url(./heydings_icons.ttf);
+}
+
+.tt {
+	font-family: "3Dumb";
+	vertical-align: middle;
+}
+
+.box2 li::before{
+	content: "1";
+	font-family: heydings_icons;
+	vertical-align: middle;
+}
+
+.box3 ul{
+
+}
+
+.box3 ul li{
+	list-style: none;
+}
+
+.box3 ul li a{
+	background-color: #fff;
+	margin-bottom: 5px;
+	display: block;
+	width: 200px;
+	height: 60p;
+	line-height: 60px;
+	text-indent: 50px;
+}
+.box3 ul li a:hover {
+	background-color: red;
+	color: #9C0;
+
+}

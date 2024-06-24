@@ -1,0 +1,30 @@
+/*
+display 都為block
+width 預設為100%
+height 依據內文高為高
+*/
+body{
+    background-color: aqua;
+}
+
+h1{
+    background-color: azure;
+}
+
+h2{
+    background-color: bisque;
+}
+
+p{
+    background-color: blueviolet;
+    width: 500px;
+}
+
+/*
+display 不為block
+*/
+a{
+    background-color: pink;
+    /*可設成block 但因為此段code放在p內 最寬為p寬*/
+    display: block;
+}

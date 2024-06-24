@@ -1,0 +1,26 @@
+body{
+    background-color: #a76b6b;
+    /* 圖會根據大小一直貼完 */
+    /* 圖繪和背景色共存 因為是bcg祥稱 */ 
+    /* 背景圖要一開始就決定好像素大小 */
+    background-image: url("./1920x1200.jpg");
+    /* bcg的附件設定 固定 */
+    background-attachment: fixed; 
+}
+
+.box{
+    background-color: #ebdada;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    /* 圖片會有邊線 要跟被景色同色 */
+    /* background-repeat 預設為 repeat */
+    background-image: url("./bg01.gif"),url("./bg02.jpg");
+    background-repeat:repeat-x,repeat-x;
+    /* 
+    參數可以用 位置 座標 比例 EX: top 20px 60px 50% 
+    200px 
+    */
+    background-position: top,bottom;
+    
+}

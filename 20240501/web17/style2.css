@@ -1,0 +1,42 @@
+/* 使用float的做法 */
+/*先從 DOM 最頂層開始做*/
+/* div>h1+(ul>li>a)  */
+/* 
+1 div
+2 h1 ul
+3 li
+4 a 
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    padding-left: 60px;
+    padding-top: 10px;
+    margin: auto;
+}
+/* float 會對齊前面 */
+h1{
+    float: left;
+}
+ul{
+    float:right;
+    list-style: none;
+    padding-right:100px;
+    padding-top: 55px;
+}
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+}

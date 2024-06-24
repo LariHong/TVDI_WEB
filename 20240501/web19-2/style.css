@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+h1{
+    background-color: rgba(255, 235, 205, 0.695);
+}
+
+ul{
+    background-color: rgba(0, 255, 255, 0.705);
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+
+}

@@ -1,0 +1,61 @@
+*{
+	padding:0;
+	margin:0;
+}
+	
+body{
+	background-color:#E3E1C6;}
+.wrapper{
+	width:1200px;
+	background-color:#FFF;
+	margin:0 auto;}
+
+.header{
+	border-top:#066 20px solid;
+	border-bottom:#066 20px solid;}
+
+.header img{
+	vertical-align:bottom;}
+
+
+.box{
+	background-color: antiquewhite;
+	display: flex;
+	flex-wrap: wrap;
+	height:1200px; 
+	/*colume 會依據height擺放 超過就會換行*/
+	flex-direction: column;
+}
+
+.box>div{
+	/* width: 33%; 會殘留一點點*/
+	/*系統會自動調整*/
+	width: calc(100%/3);
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.b1{
+	background-color: rgba(255, 136, 0, 0.393);
+}
+
+.b2{
+	background-color: rgba(221, 255, 0, 0.426);
+}
+
+.b3{
+	background-color: rgba(0, 221, 255, 0.448);
+}
+
+
+.b4 {
+	background-color: rgba(0, 255, 4, 0.393);
+}
+
+.b5 {
+	background-color: rgba(0, 221, 255, 0.426);
+}
+
+.b6 {
+	background-color: rgba(255, 0, 174, 0.448);
+}

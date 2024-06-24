@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.t1 {
+    border-top: #333 8px solid;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.box {
+    height: 500px;
+    background-image: url(./bg00.jpg);
+    font-size: 40px;
+    color: #FFF;
+    padding: 120px 0 0 200px;
+    /* 如果不做background-size圖一直填滿盒子尺寸 */
+    /*cover 放大後將多餘的裁掉*/
+    /* contain 放大到容器緊繃 再repeat */
+    /* 可以 200px 30px(座標位址) 50% 100px(比例) */
+    background-size: contain; 
+}
+
+.box h3 {
+    color: #ffeeaa;
+}
+
+.t2 {
+    background-color: #f0f0f0;
+    padding: 60px;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.t3 {
+    background-color: #dcdcdc;
+    padding: 60px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 35px;
+}

@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(./body_bg.gif);
+}
+
+.container {
+    background-image: url(./container_bg.jpg);
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgb(241, 164, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    animation: logoAnimation 4s infinite;
+}
+.header ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+.header ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box {
+}
+
+.nav {
+    float: left;
+    width: 200px;
+}
+.nav ul {}
+.nav ul li {
+    list-style: none;
+}
+.nav ul li a {
+    margin: auto;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    width: 150px;
+    border-bottom: #FFF thin dashed;
+    line-height: 50px;
+    /* transition: all 0.2s; */
+}
+.nav ul li a span {
+    font-family: "Material Symbols Outlined";
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+.nav ul li a:hover {
+    color: #e441d6;
+    font-size: 14px;
+}
+.nav ul li a:hover span {
+    font-family: "Material Symbols Outlined";
+    vertical-align: middle;
+    color: red;
+    font-size: 30px;
+}
+
+
+.content {
+    box-sizing: border-box;
+    float: right;
+    padding: 20px;
+    width: 1000px;
+    text-align: justify;
+}
+.content h2 {
+    background-image: url(./title_bg.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    text-indent: 30px;
+    padding: 5px 0px 20px 0px;
+}
+.content h3 {
+    border-left: #624703 15px solid;
+    background: #a27608;
+    width: 300PX;
+    color: aqua;
+    box-shadow: 2px 2px 5px 1px black;
+    text-indent: 10px;
+}
+.content p {
+    padding: 10px 0;
+}
+
+.footer {
+    background-color: #000;
+    clear: both;
+}
+.footer h2 {
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    transition: all 1s;
+}
+
+@keyframes logoAnimation{
+    0%{
+        transform: perspective(200px) rotateY(0deg);
+    }
+
+    100%{
+        transform: perspective(200px) rotateY(360deg);
+    }
+}

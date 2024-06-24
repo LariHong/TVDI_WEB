@@ -1,0 +1,95 @@
+/* 不建議用這方法插圖 */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #dca9a9;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 1200px;
+    margin: auto;
+}
+
+
+.header {
+    background-image: url(./banner.png);
+    height: 250px;
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.header h1 img {}
+
+.nav {
+    background-color: rgb(26, 149, 170);
+    /* position不要+ */
+    /* overflow: hidden; */
+    /* 要設高 */
+    height: 50px;
+}
+
+.nav ul {
+    background-color: rgb(56, 187, 56);
+}
+
+.nav ul li {
+    background-color: rgb(38, 46, 98);
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.nav ul li a {
+    display: block;
+    background-color: brown;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {}
+
+.content {
+    position: relative;
+}
+
+.content h2 {}
+
+.content p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.content p img {
+    position: absolute;
+}
+
+.footer {
+    background-color: #c0dc34;
+    color: #fff;
+    height: 50px;
+    position: relative;
+}
+
+.footer h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.footer h4 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+div{
+    background-image: url(./banner.jpg);
+
+    width: 1200px;
+    height: 350px;
+}
+
+h1{
+    /* 盒子脫離母層 到body層 寬度不受母層限制 可自訂 */
+    background-color: rgba(255, 0, 0, 0.504);
+    /* 字體脫離母層 寬度不受母層限制 可自訂 */
+    position: absolute;
+    width: 600px;
+    top:150px;
+    left:700px
+}
+
+p{
+    background-color: rgba(0, 128, 0, 0.223);
+    position: absolute;
+    width: 600px;
+    bottom: 350px;
+    right: 150px;
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+ul{
+	padding-left:0;}
+li{
+	list-style-type:none;
+	/* 將 li做水平排列 下方物件會往上替補 */
+	float: right
+}
+
+li a{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color:#690;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	line-height:50px;
+	margin-right:10px;
+	
+}
+
+li a:hover{
+	background-color:#06C;
+	color:#FF6;	}
+

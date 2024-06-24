@@ -1,0 +1,40 @@
+.content img{
+    border-radius: 0px;
+    border: 0;
+}
+
+.content .productbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+.content .productbox a{
+    text-decoration: none;
+    color: black;
+}
+.content .productbox .pbox {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 25px;
+}
+/* 這樣一組才有動畫 */
+.content .productbox a .pbox {
+    transition: all 0.8s;
+}
+.content .productbox a:hover .pbox {
+    color: azure;
+    background-color: rgb(171, 171, 210);
+    border-radius: 10px;
+    transform: translate(-4px,-4px);
+    box-shadow: 3px 3px 5px rgb(91, 91, 104);
+}
+
+.content .productbox a .pbox img{
+    transition: all 0.8s;
+}
+
+.content .productbox a:hover .pbox img{
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+.box{
+    background-color: red;
+}
+
+/* background 主軸分成"顏色" "圖片"
+"""圖片 會蓋過 顏色""" */
+
+/* background  background-xxx 同時出現時已background-xxx 為主*/
+a{
+    background-color: rgb(46, 51, 133);
+    /* <a>不是盒元素
+    設定成盒元素 */
+    display: block;
+    width: 200px;
+    height: 60px;
+    /* 邊框 */
+    /* border: red 2px solid; */
+    /* 邊框圓角 */
+    border-radius: 15px;
+    
+    color: #ffffff;
+    text-align: center;
+    /* 文字裝飾屬性 */
+    text-decoration: none;
+    /* 行高設定 */
+    line-height: 60px;
+
+    /* 比較詳細地話要用 background-image */
+    /* 漸層方向, 起始顏色 漸層開始位置(%) ,終點顏色 漸層結束位置(%) */
+    /* background: linear-gradient(to right, #becbd18e 20%, #2aafed78 70%); */
+
+    /* 漸層方向, "起始顏色 漸層開始位置(%) ,終點顏色 漸層結束位置(%)" 一循環 */
+    background:repeating-linear-gradient(30deg,#becbd18e 0%, #2aafed78 10%);
+
+    /* 水平 垂直 柔化 擴張 顏色 內陰影, 
+    水平 垂直 柔化 擴張 顏色 */
+    box-shadow: 2px 2px 5px 2px whitesmoke inset, 4px 4px 5px 2px gray;
+
+    text-shadow: 1px 1px 5px #000;
+}
+
+a:hover{
+    background-color: rgb(229, 236, 237);
+    color: black;
+}

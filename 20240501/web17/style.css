@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+
+li {
+    float: left;
+    margin: 5px;
+}
+
+li a {
+    display: block;
+    width: 100px;
+    background-repeat: no-repeat;
+    /*這裡不設height line-height 因為不設定 就是以內容為主*/
+    /*因此這邊的 height= padding-top+文字高*/
+    text-decoration: none;
+    text-indent: 15px;
+    padding-top: 100px;
+
+    color: rgb(17, 2, 2);
+}
+
+.text{
+    position: absolute;
+    top: 120px;
+}
+.text a{
+    display: block;
+    padding-top: 0;
+    color: #000;
+}
+.text a:hover {
+    color: #c53d3d;
+}
+
+.icon1 a {
+    background-image: url(./icon1_1.png);
+}
+
+.icon1 a:hover {
+    background-image: url(./icon1_2.png);
+    color: blue;
+}
+
+.icon2 a {
+    background-image: url(./icon2_1.png);
+}
+
+.icon2 a:hover {
+    background-image: url(./icon2_2.png);
+    color: blue;
+}
+
+.icon3 a {
+    background-image: url(./icon3_1.png);
+
+}
+
+.icon3 a:hover {
+    background-image: url(./icon3_2.png);
+    color: blue;
+}
+
+.icon4 a {
+    background-image: url(./icon4_1.png);
+}
+
+.icon4 a:hover {
+    background-image: url(./icon4_2.png);
+    color: blue;
+}
+
+.icon5 a {
+    background-image: url(./icon5_1.png);
+}
+
+.icon5 a:hover {
+    background-image: url(./icon5_2.png);
+    color: blue;
+}

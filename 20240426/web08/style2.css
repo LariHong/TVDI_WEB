@@ -1,0 +1,23 @@
+/* 可以做出 圖片在中間 且 的效果 */
+body {
+    background-color: #a76b6b;
+    
+}
+
+.box {
+    background-color: #ebdada;
+    background-image: url("./1920x1200.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    width: 600px;
+    /* margin: auto; */
+    padding: 20px;
+}
+
+p{
+    color: aliceblue;
+}
+
+h1,h2,h3{
+    color: #fadddd;
+}

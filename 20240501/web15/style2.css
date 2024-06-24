@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+div{
+    background-image: url(./banner.jpg);
+
+    width: 1200px;
+    height: 350px;
+
+    /* 加了這句後 浮動的盒子 會回歸母層 */
+    position: relative;
+}
+
+h1{
+    background-color: rgba(255, 0, 0, 0.504);
+    position: absolute;
+    /* 目前 z-index 為1 後*/
+    z-index: 2;
+    width: 600px;
+    top: 150px;
+    left: 700px
+}
+
+p{
+    background-color: rgba(0, 128, 0, 0.223);
+    position: absolute;
+    /* 目前 z-index 為2 前*/
+    z-index: 1;
+    width: 600px;
+    bottom: 70px;
+    right: 150px;
+}

@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    background-color: brown;
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-image: url(./banner.png);
+    height: 250px;
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 60px 0 0 300px;
+}
+.box{
+    display: flex;
+}
+.nav {
+    background-color: rgb(26, 149, 170);
+    /* 雙欄差別 */
+    width: 200px;
+}
+
+.nav ul {
+    background-color: rgb(56, 187, 56);
+}
+
+.nav ul li {
+    background-color: rgb(38, 46, 98);
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.nav ul li a:hover {}
+
+.content {
+    background-color: azure;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* 雙欄差別 */
+    width: 1000px;
+}
+
+.content h2 {}
+
+.content p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #c0dc34;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* 雙欄差別 */
+    clear: both;
+}
+
+.footer h3 {}
+
+.footer h4 {}
