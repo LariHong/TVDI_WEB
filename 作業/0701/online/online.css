@@ -1,0 +1,9 @@
+.p1{
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+.p2{
+    float: right;
+    margin: 10px 0px 10px 10px;
+}

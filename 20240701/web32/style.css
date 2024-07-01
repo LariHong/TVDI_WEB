@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 20px;
+    align-items: center;
+}
+
+.header h1 {}
+
+.header ul {}
+
+.header li {
+    float: left;
+    list-style: none;
+}
+
+.header li a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.header li a:hover {}
+
+.banner {}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    /*根據基線 像y  底下的空間*/
+    vertical-align: bottom;
+}
+
+.office {
+    background-color: rgb(181, 151, 180);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.office .ofbox {
+    background-color: #c0aaaa;
+    width: 22%;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+.office .ofbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.office .ofbox p {}
+
+.ad {
+    background-color: #af8a8a;
+    display: flex;
+    /* padding:  1vh 30vw; */
+}
+
+.adbox {
+    width: 25%;
+}
+
+.ad img {
+    /*這裡用這個 是因為 就是要讓圖群 佔滿螢幕*/
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav {
+    background-color: #7a4d4d;
+    display: flex;
+    justify-content: center;
+}
+
+.nav .navbox {
+    background-color: #a46666;
+    margin: 2%;
+    width: 18%;
+    padding: 1%;
+}
+
+.nav .navbox p {}
+
+.nav .navbox ul {}
+
+.nav .navbox li {
+    list-style: none;
+}
+
+.nav .navbox li a {
+    text-decoration: none;
+}
+
+.nav .navbox li a:hover {}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer h2 {}
+
+.footer p {}
+
+/*沒設定就以上述為設定*/
+/*平板設定*/
+@media screen and (max-width:1200px) and (min-width:769px) {
+    .office {
+            flex-wrap: wrap;
+    
+        }
+    
+        .office .ofbox {
+            width: 44%;
+
+        }
+        .office .ofbox img {
+            height: auto;
+        }
+    
+    
+        .ad {
+            flex-wrap: wrap;
+        }
+    
+        .adbox {
+            width: 50%;
+        }
+    
+    
+        .nav {
+            flex-wrap: wrap;
+        }
+    
+        .nav .navbox {
+            width: 36%;
+        }
+
+}
+/*手機設定*/
+@media screen and (max-width:768px) {
+    .office {
+            flex-wrap: wrap;
+    
+        }
+    
+        .office .ofbox {
+            width: 88%;
+    
+        }
+    
+    
+        .ad {
+            flex-wrap: wrap;
+        }
+    
+        .adbox {
+            width: 100%;
+        }
+    
+    
+        .nav {
+            flex-wrap: wrap;
+        }
+    
+        .nav .navbox {
+            width: 72%;
+        }
+}

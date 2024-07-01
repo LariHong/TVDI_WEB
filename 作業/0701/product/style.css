@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../../share/bg.gif);
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    background-image: url(../../share/wrapper_bg.jpg);
+}
+
+.header{
+    background-color:orange;
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px;
+    align-items: center;
+}
+.header h1{
+
+}
+.header ul{
+    box-sizing: border-box;
+}
+.header ul li{
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header ul li a:hover{
+
+}
+
+.banner {}
+
+.banner img {
+    /* 這行能夠解決圖沒滿版 */
+    vertical-align: bottom;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 200px
+}
+.nav ul{
+
+}
+.nav ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.nav ul li a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-indent: 20px;
+    border-bottom: 2px dashed white;
+}
+.nav ul li a:hover{
+
+}
+.nav ul li a span {
+    font-family: "Material Symbols Outlined";
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.nav ul li:last-child a{
+    border: none;
+}
+
+.content{
+    width: 1000px;
+}
+
+.footer{
+    clear: both;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.footer h3{
+    font-weight: normal;
+}
+.footer h4{
+    font-weight: normal;
+}
