@@ -1,14 +1,18 @@
 $(function () {
     //Jq作法
-    $("#BBB").click(function(){
-        $("#CON_BOX").css({"font-size":"30px","color":"red"})
+    var count = 16
+    $("#BBB").click(function () {
+        count += 1
+        $("#CON_BOX").css({ "font-size": count + "px", "color": "red" })
     })
     $("#MMM").click(function () {
-        $("#CON_BOX").css({ "font-size": "16px" })
+        count=16
+        $("#CON_BOX").css({ "font-size": count + "px" })
     })
     //color 設定空  則會把style內的color 內清掉
     $("#SSS").click(function () {
-        $("#CON_BOX").css({ "font-size": "9px", "color": "" })
+        count -= 1
+        $("#CON_BOX").css({ "font-size": count + "px", "color": "" })
     })
 
     //JS作法
