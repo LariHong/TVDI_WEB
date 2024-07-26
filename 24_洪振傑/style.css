@@ -1,0 +1,537 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    font-size: 18px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(69, 8, 8);
+    padding: 20px;
+    align-items: center;
+}
+
+.header .top {
+    /* background-color: antiquewhite; */
+    display: flex;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.header .top img {}
+
+.header h3 {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    display: none;
+    cursor: pointer;
+}
+
+.header .ul .close {
+    display: none;
+    cursor: pointer;
+}
+
+.header .top ul {
+    /* background-color: rgb(133, 50, 19); */
+}
+
+.header .top li {
+    float: left;
+    list-style: none;
+}
+
+.header .top li a {
+    margin-right: 20px;
+    color: rgb(234, 240, 49);
+    text-decoration: none;
+}
+
+.header .top li a:hover {}
+
+.header ul {
+    /* background-color: coral; */
+}
+
+.header li {
+    float: left;
+    list-style: none;
+}
+
+.header li a {
+    margin-right: 20px;
+    color: rgb(234, 240, 49);
+    text-decoration: none;
+}
+
+.header li a:hover {}
+
+
+.banner {
+    /* background-color: burlywood;    */
+    
+}
+.banner .foodsBox{
+    display: flex;
+    justify-content: center;
+    position: relative bottom;
+}
+.banner .foodsBox .foodsbox{
+    /* background-color: rgba(0, 0, 255, 0.421); */
+    position: absolute;
+    color: white;
+    padding: 23%;
+    width: 50%;
+}
+.banner .foodsbox h3{
+    text-align: center;
+    margin: 2%;
+}
+.banner .foodsbox p {
+    text-align: center;
+}
+
+
+.banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.banner .icon {
+    display: flex;
+    background-color: white;
+    margin: 10px 60px 30px 60px;
+    justify-content: center;
+}
+
+.icon .iconbox {
+    width: 22%;
+    margin: 1%;
+    padding: 1%;
+    border-style: groove;
+}
+
+.icon .iconbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon .iconbox h3 {
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.icon .iconbox p {
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.icon .iconbox ul {
+    display: flex;
+}
+
+.icon .iconbox li {
+
+    list-style: none;
+    padding: 5px 0 10px 0;
+
+}
+
+.icon .iconbox li a {
+    display: block;
+    background-color: rgb(34, 55, 126);
+    color: azure;
+    text-decoration: none;
+    border-style: groove;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.icon .iconbox li a.w {
+    background-color: #fff;
+    color: #000;
+}
+
+.icon .iconbox li a.w:hover {
+    background-color: #d2d0d0;
+}
+
+.icon .iconbox li a:hover {
+    background-color: rgb(103, 172, 197);
+    color: rgb(69, 81, 109);
+}
+
+.bread {
+    /* display: flex; */
+    position: relative;
+}
+
+.bread img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.bread .breadbox {
+    position: absolute;
+    padding: 5%;
+    width: 80%;
+}
+
+.breadbox h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+
+.breadbox p {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.breadbox a {
+    display: block;
+    background-color: rgb(34, 55, 126);
+    color: azure;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.breadbox a:hover {
+    background-color: azure;
+    color: black;
+}
+
+
+.nav {
+    display: flex;
+    background-color: rgb(224, 221, 221);
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.nav .navbox {
+    background-color: white;
+    width: 26%;
+    padding: 2%;
+    margin: 1%;
+}
+
+.navbox img {
+    width: 75%;
+    height: auto;
+    margin: 5px 0 5px 50px;
+}
+
+.navbox h3 {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.navbox p {
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+
+.ad {
+    /* background-color: darkkhaki;  */
+}
+
+.ad .bt {
+    width: 100%;
+    height: auto;
+}
+
+.ad .adBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+
+.ad .adbox {
+    /* background-color: darkgoldenrod; */
+    width: 26%;
+    padding: 0;
+    margin: 1%;
+    border-style: groove;
+}
+
+.adbox img {
+    width: 100%;
+    height: auto;
+}
+
+.adbox h3 {
+    font-size: 24px;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.adbox p {
+    font-size: 14px;
+    padding: 5px 5px 20px;
+    text-align: left;
+}
+
+
+.footer {
+    background-color: rgb(68, 67, 67);
+    display: flex;
+    justify-content: center;
+}
+
+.footer .ft {
+    color: rgb(211, 211, 211);
+    width: 24%;
+    padding: 2%;
+    margin: 0 2%;
+    position: relative;
+
+}
+
+.footer .ft h4 {
+    font-size: 24px;
+
+}
+
+.footer .ft ul {
+    margin-left: 40px;
+}
+
+.footer .ft li {}
+
+.footer .ft li a {
+    color: rgb(211, 211, 211);
+    font-size: 14px;
+}
+
+.footer .ft li a:hover {}
+
+
+
+/* ================ 平板 CSS ================ */
+
+@media screen and (max-width:1200px) and (min-width:769px) {
+        
+        .header h3 {
+            display: block;
+            position: absolute;
+            top: 80px;
+            right: 20px;
+        }
+    
+        .header .ul-1 {
+            background-color: #e0924dec;
+            position: absolute;
+            width: 100px;
+            top: 115px;
+            right: 25px;
+            padding: 5px;
+            display: none;
+            
+        }
+    
+        .header .ul-1 li {
+            float: none;
+        }
+    
+        .header .ul-1 li a {
+            display: block;
+            width: 80px;
+            height: 40px;
+            background-color: #e8ad71d8;
+            margin: 10px;
+            text-align: center;
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    
+        .header .ul-1 li a:hover {
+            background-color: #b14328e7;
+            color: rgb(255, 240, 185);
+        }
+    
+        .header .ul-2 {
+            position: absolute;
+            right: 60px;
+        }
+    
+
+        .banner .foodsbox h3 {
+            font-size: 18px;
+        }
+
+        .banner .foodsbox p {
+            font-size: 14px;
+        }
+    
+        .banner .icon {
+            flex-wrap: wrap;
+        }
+
+        .icon .iconbox {
+            width: 44%;
+        }
+
+
+        .nav {
+            flex-wrap: wrap;
+        }
+
+        .nav .navbox {
+            width: 52%;
+        }
+
+        .ad .bt {
+            width: 100%;
+            height: auto;
+        }
+
+        .ad .adBox {
+            flex-wrap: wrap;
+        }
+
+        .ad .adbox {
+            width: 36%;
+        }
+
+
+        .footer {
+            flex-wrap: wrap;
+        }
+
+        .footer .ft {
+            width: 36%;
+        }
+
+
+
+    }
+
+
+
+    /* ================ 手機 CSS ================ */
+
+    @media screen and (max-width:768px) {
+
+        .header h3 {
+            display: block;
+            position: absolute;
+            top: 80px;
+            right: 20px;
+        }
+
+        .header .ul-1 {
+            background-color: #e0924dec;
+            position: absolute;
+            width: 100px;
+            top: 115px;
+            right: 25px;
+            padding: 5px;
+            display: none;
+        }
+
+        .header .ul-1 li {
+            float: none;
+        }
+
+        .header .ul-1 li a {
+            display: block;
+            width: 80px;
+            height: 40px;
+            background-color: #e8ad71d8;
+            margin: 10px;
+            text-align: center;
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .header .ul-1 li a:hover {
+            background-color: #b14328e7;
+            color: rgb(255, 240, 185);
+        }
+
+        .header .ul-2 {
+            position: absolute;
+            right: 60px;
+        }
+
+        .banner .foodsbox h3 {
+            font-size: 14px;
+        }
+
+        .banner .foodsbox p {
+            font-size: 10px;
+        }
+
+        .banner .icon {
+            flex-wrap: wrap;
+        }
+
+        .icon .iconbox {
+            width: 88%;
+        }
+
+
+        .nav {
+            flex-wrap: wrap;
+        }
+
+        .nav .navbox {
+            width: 52%;
+        }
+
+
+        .breadbox h2 {
+            font-size: 24px;
+        }
+
+        .breadbox p {
+            margin-bottom: 14px;
+        }
+
+        .ad .bt {
+            width: 100%;
+            height: auto;
+        }
+
+        .ad .adBox {
+            flex-wrap: wrap;
+        }
+
+        .ad .adbox {
+            width: 52%;
+        }
+
+
+        .footer {
+            flex-wrap: wrap;
+        }
+
+        .footer .ft {
+            width: 48%;
+
+        }
+
+    }
